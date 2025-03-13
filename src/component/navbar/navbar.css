@@ -1,0 +1,19 @@
+.show .b1{
+    transform: translate(0, 8px) rotate(-45deg);
+    transition: 100ms;
+    
+}
+.show .b2{
+    opacity: 0;
+    transition: 100ms;
+}
+.show .b3{
+    transform: translate(0,-8px) rotate(45deg);
+    transition: 100ms;
+}
+
+.nav {
+    position: absolute;
+    right:100px;
+    z-index: 10;
+}

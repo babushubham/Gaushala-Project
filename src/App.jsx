@@ -8,6 +8,7 @@ import Footer from "./component/Footer/Footer"
 import Donate from "./pages/Donate"
 import Gallery from "./pages/Gallery"
 import Address_navbar from './component/navbar/Address_navbar'
+import VisitVolunteerForm from './component/VisitVolunteerForm'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/about" element={<About/>}/>
         <Route path="/donate" element={<Donate/>}/>
         <Route path="/gallery" element={<Gallery/>}/>
+        <Route path="/visitform" element={<VisitVolunteerForm/>}/>
 
       </Routes>
     </Router>

@@ -8,6 +8,7 @@ import AboutUsComp from '../component/AboutUsComp';
 import VisionMission from '../component/VisionMission';
 import DonationSlider from '../component/DonationSlider';
 import AdoptCow from '../component/AdoptCow';
+import VisitMarquee from '../component/VisitMarquee';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Layout>
         <Marquee />
         <Herosection />
+        <VisitMarquee/>
         <WhatWeDo />
         <AboutUsComp />
         <VisionMission />

@@ -10,13 +10,13 @@ const donationMessages = [
 
 const Marquee = () => {
   return (
-    <div className="relative w-full bg-yellow-50 py-3 overflow-hidden">
+    <div className="relative w-full bg-yellow-50 py-3 overflow-hidden my-2">
       <Link to="/donate" className="block">
         <motion.div
           className="flex space-x-10 text-lg font-semibold text-gray-800"
           initial={{ x: "100%" }}
           animate={{ x: "-100%" }}
-          transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
+          transition={{ repeat: Infinity, duration: 14, ease: "linear" }}
         >
           {donationMessages.map((msg, index) => (
             <span key={index} className="whitespace-nowrap">

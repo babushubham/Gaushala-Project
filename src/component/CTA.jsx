@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const FinalCTA = () => {
   return (
-    <div className="bg-gradient-to-r from-yellow-100 to-yellow-50 py-20 px-6 md:px-12 rounded-xl shadow-lg mx-4 md:mx-12">
+    <div className="bg-gradient-to-r from-yellow-100 mb-20 to-yellow-50 py-20 px-6 md:px-12 rounded-xl shadow-lg mx-4 md:mx-12">
       <div className="text-center max-w-4xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-extrabold text-gray-800">
           Be the Reason a Cow Lives Happily 🐄❤️

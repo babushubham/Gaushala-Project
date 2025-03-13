@@ -18,7 +18,7 @@ const donationItems = [
 
 const DonationSlider = () => {
   return (
-    <div className="py-16 px-6 md:px-12 bg-yellow-50">
+    <div className="pb-15 px-6 md:px-12 bg-yellow-50">
       <p className="text-3xl font-bold text-gray-800 text-center  p-8">
         Support Our Cause
       </p>
@@ -38,7 +38,7 @@ const DonationSlider = () => {
       >
         {donationItems.map((item) => (
           <SwiperSlide key={item.id} >
-            <div className="bg-white rounded-xl  shadow-md overflow-hidden">
+            <div className="bg-white rounded-xl mb-8 shadow-md overflow-hidden">
               <img src={item.img} alt={item.title} className="w-full h-48 object-cover" />
               <div className="p-4 text-center">
                 <h3 className="text-xl font-semibold text-gray-800">{item.title}</h3>

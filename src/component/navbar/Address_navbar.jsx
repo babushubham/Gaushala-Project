@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaPhoneAlt, FaMapMarkerAlt } from 'react-icons/fa';
 import email from '../../assets/email.png'
 import phone from '../../assets/phone-call.png'
 import gps from '../../assets/gps.png'
@@ -7,13 +8,21 @@ import instagram from '../../assets/instagram.png'
 
 const Address_navbar = () => {
   return (
-    <>
-    <div className='flex items-center justify-evenly bg-orange-500 min-w-full h-7 '>
-    <div className='flex items-center justify-between'><img src={email} alt="" className='w-5'/><div className='pl-2 font-semibold '>Gaurishurbhigaushala@gmail.com</div></div>
-    <div className='flex items-center justify-between'><img src={phone} alt="" className='w-5'/><div className='pl-2 font-semibold'>+91 9876554329</div></div>
-    <div className='flex items-center justify-between'><img src={gps} alt="" className='w-5'/><div className='pl-2 font-semibold'>Attla Chungi, Vrindavan, Mathura, UP</div></div>
+    <div className="w-full bg-orange-500 text-white px-4 sm:px-8 md:px-16 lg:px-20 py-2 text-xs sm:text-sm md:text-md flex flex-wrap items-center justify-center sm:justify-between">
+      
+    {/* Address */}
+    <div className="flex items-center gap-2">
+      <FaMapMarkerAlt className="text-lg sm:text-xl" />
+      <span className="font-semibold">123 Goshala Road, Vrindavan, India</span>
     </div>
-    </>
+
+    {/* Contact */}
+    <div className="hidden sm:flex items-center gap-2">
+      <FaPhoneAlt className="text-lg sm:text-xl" />
+      <a href="tel:+919876543210" className="font-semibold hover:underline">+91 98765 43210</a>
+    </div>
+
+  </div>
   )
 }
 

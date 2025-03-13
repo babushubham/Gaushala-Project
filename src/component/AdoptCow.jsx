@@ -12,7 +12,7 @@ const adoptList = [
 
 const AdoptCow = () => {
   return (
-    <div className="py-16 px-6 md:px-12 bg-yellow-50">
+    <div className="pb-16 px-6 md:px-12 bg-yellow-50">
       <h2 className="text-3xl font-bold text-gray-800 text-center p-8">
         Adopt a Cow & Give Them a Loving Home
       </h2>
